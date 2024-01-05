@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@font-face {
+    font-family: helvetica;
+    src: url("font/Helvetica-Bold.ttf");
+}
+
+@font-face {
+    font-family: atle;
+    src: url("font/AlteHaasGroteskBold.ttf");
+}
+
+h1 {
+    font-family: atle;
+}
+
+h2 {
+    font-family: helvetica;
+}
+
+p {
+    margin: 2px;
+    font-family: 'Merriweather', serif;
+}
+
+
+@media screen and (max-width: 720px) {
+    p {
+        font-size: 9px;
+    }
+}
